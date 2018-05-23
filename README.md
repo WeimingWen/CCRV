@@ -14,8 +14,8 @@ This repository contains the implementation of methods in "Cross-Lingual Cross-P
   - ...
 
 # Data
-All data used in this project is save in the 'data' folder. The original Twitter dataset from [VMU 2015](https://github.com/MKLab-ITI/image-verification-corpus) is saved as ‘resources/dataset.txt’ in json format. The additional data we collected from Google and Baidu from VMU 2016 is saved as ‘google_results.txt’ and 'baidu_results.txt'.
-
+Three sub-datasets of our CCMR dataset is saved in the folder CCMR 
+as three json files, "CCMR/CCMR_Twitter.txt", "CCMR_Google.txt" and "CCMR_Baidu.". 
 
 # Procedure
 1. To reproduce experiments results, simply run main.py
