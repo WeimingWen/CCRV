@@ -14,11 +14,14 @@ This repository contains the implementation of methods in "Cross-Lingual Cross-P
   - ...
 
 # Data
-Three sub-datasets of our CCMR dataset is saved in the folder CCMR 
-as three json files, "CCMR/CCMR_Twitter.txt", "CCMR_Google.txt" and "CCMR_Baidu.". 
+Three sub-datasets of our CCMR dataset are saved in the folder CCMR
+as three json files (lists of json objects), "CCMR/CCMR_Twitter.txt", "CCMR_Google.txt" and "CCMR_Baidu.txt".
+
+For CCMR Twitter, each tweet is saved as a json object with keys "tweet_id", "content", "image_id", "event", "timestamp".
+For CCMR Google and Baidu, each webpage is saved as a json object with keys "url", "title", "image_id", "event".
 
 # Procedure
-1. To reproduce experiments results, simply run main.py
+1. To reproduce experiments results, simply run main.py.
 
 2.	Download parallel English and Mandarin sentence of news and microblogs from [UM-Corpus](http://nlp2ct.cis.umac.mo/um-corpus/index.html) and save them in a folder named 'UM_Corpus'.
 
