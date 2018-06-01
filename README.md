@@ -17,8 +17,10 @@ This repository contains the implementation of methods in "Cross-Lingual Cross-P
 Three sub-datasets of our CCMR dataset are saved in the folder CCMR
 as three json files (lists of json objects), "CCMR/CCMR_Twitter.txt", "CCMR_Google.txt" and "CCMR_Baidu.txt".
 
-For CCMR Twitter, each tweet is saved as a json object with keys "tweet_id", "content", "image_id", "event", "timestamp".
-For CCMR Google and Baidu, each webpage is saved as a json object with keys "url", "title", "image_id", "event".
+For CCMR Twitter, each tweet is saved as a json object with keys "tweet_id", "content", "image_id", "event", and "timestamp".
+For CCMR Google and Baidu, each webpage is saved as a json object with keys "url", "title", "image_id", and "event".
+The values of "image_id" are lists of image or video names from [VMU 2015 dataset](https://github.com/MKLab-ITI/image-verification-corpus).
+All of those image files and video URLs are available in "images.zip".
 
 # Procedure
 1. To reproduce experiments results, simply run main.py.
